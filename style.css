@@ -29,6 +29,13 @@ li {
 }
 
 
+.caption p {
+  position: absolute;
+  font-size: 12px;
+  bottom:-10px;
+}
+
+
 #mi1:hover, #mi2:hover, #mi3:hover {
   background: transparent;
 }
@@ -68,7 +75,7 @@ li {
   }
 
 	#main-menu a {
-		font-size: 0.8vw;
+		font-size: 1.1vw;
     color:#3c3c3c;
 		text-transform: uppercase;
 	}
@@ -94,7 +101,6 @@ li {
 	.list-inline {
 		margin-bottom: 0px;
 		margin-top: 30px;
-		text-align: center;
 	}
 	/*End of Navigation Bar*/
 
@@ -286,6 +292,10 @@ li {
   	#form-horizontal {
   		top: 20%;
   	}
+
+    #logo {
+      margin-left: 10px;
+    }
   }
 
   .gallery_cont{
@@ -536,6 +546,10 @@ ul.thumbnails {
       #tricia {
         margin-left: 5%;
       }
+
+      .caption p {
+        bottom: -8px;
+      }
       #marc, #will {
         margin-left: 11%;
       }
@@ -732,6 +746,7 @@ ul.thumbnails {
   font-family:bebasregular;
   color: #858687;
 }
+
 .solution_text{
   width: 90%;
   text-align: justify;
@@ -797,6 +812,7 @@ ul.thumbnails {
 }
   
 @media(max-width: 900px) {
+
   .caption {
     text-align: center;
   }
